@@ -1,0 +1,176 @@
+ID	UTMx	UTMy
+"bCER24 Els Clots de Guils 18
+Guils de Cerdanya"	403953,538	4703118,713
+"bCER23 Els Clots de Guils 17
+Guils de Cerdanya"	403955	4703073
+"bCER21 Els Clots de Guils 15
+Guils de Cerdanya"	403861,87	4703025,917
+"bCER12 Els Clots de Guils 6
+Ger"	401475	4701950
+"bCER11 Els Clots de Guils 5
+Ger"	401567,664	4701850,74
+"bCER10 Els Clots de Guils 4
+Ger"	401506,813	4701818,886
+"bCER29 Els Clots de Guils 21
+Ger"	401489,456	4701781,456
+"bCER30 Els Clots de Guils 22
+Ger"	401485,117	4701839,727
+"bCER31 Els Clots de Guils 23
+Ger"	401477,34	4701848,362
+"bCER33 Els Clots de Guils 25 (=Els Clots X3)
+Ger"	401458,002	4701855,086
+"bCER7 Els Clots de Guils 1
+Meranges"	401070,983	4701538,199
+"bCER8 Els Clots de Guils 2
+Meranges"	400983,911	4701702,808
+"bCER9 Els Clots de Guils 3
+Meranges"	401149	4701731
+"bCER13 Els Clots de Guils 7
+Ger"	401339,663	4702042,97
+"bCER14 Els Clots de Guils 8
+Guils de Cerdanya"	404291,381	4702607,616
+"bCER15 Els Clots de Guils 9
+Guils de Cerdanya"	404387,595	4702691,225
+"bCER16 Els Clots de Guils 10
+Guils de Cerdanya"	404496,526	4702834,24
+"bCER17 Els Clots de Guils 11
+Guils de Cerdanya"	404373,067	4702965,478
+"bCER18 Els Clots de Guils 12
+Guils de Cerdanya"	404023,938	4702602,09
+"bCER19 Els Clots de Guils 13
+Guils de Cerdanya"	404146,848	4702799,305
+"bCER20 Els Clots de Guils 14
+Guils de Cerdanya"	403851,01	4702929,754
+"bCER22 Els Clots de Guils 16
+Guils de Cerdanya"	403918,718	4703056,363
+"bCER25 Els Clots de Guils 19
+Guils de Cerdanya"	403873,11	4702605,802
+"bCER26Els Clots de Guils 20
+Guils de Cerdanya"	403908,855	4702563,25
+"bCER27 Estany Sec
+Meranges"	400362	4702485
+"bCER28 Estany del Prat Fondal
+Ger"	401110	4703306,712
+"bCER32 Els Clots de Guils 24 (=Els Clots X1)
+Ger"	401478	4702015
+"bCER34 Els Clots de Guils 26 (=Els Clots X4)
+Ger"	401472,284	4701862,693
+"bCER35 Els Clots de Guils 27 (=Els Clots X5)
+Ger"	401418,207	4701859,147
+"bCER36 Els Clots de Guils 28 (=Els Clots 21 mostra Federico Marrone) aprox.
+Meranges"	400677,632	4702458,441
+"bCER37 Estany del Gespetar
+Ger"	402197,174	4703700,924
+"bCER38 Estany del Refugi
+Meranges"	400073,612	4702108,154
+"bCER39 Estany de Malniu
+Meranges"	400674,385	4702937,327
+"bCER40 Estany Mal
+Ger"	401384,707	4703432,807
+"bCER41 Prat Fondal
+Ger"	400784,71	4703396,642
+"bGER42 La Feixa 1
+Ger"	402758,368	4701729,267
+"bCER43 La Feixa 2
+Ger"	402661,733	4701533,226
+"bCER44 La Feixa 3
+Ger"	402547,359	4701706,153
+"bCER45 Tartera Roja 1
+Ger"	402599,497	4702469,119
+"bCER45 Tartera Roja 1
+Ger"	402599,497	4702469,119
+"bCER46 Tartera Roja 2
+Ger"	402662,197	4702412,542
+"bCER47 Tartera Roja 3
+Ger"	402862,403	4702447,48
+"bCER47 Tartera Roja 3
+Ger"	402862,403	4702447,48
+"bCER48 Tartera Roja 4
+Ger"	402965,749	4702491,066
+bCER49 Tartera Roja 5	403041,027	4702550,462
+"bCER50 Tartera 6
+Ger"	403163,858	4702588,996
+"bCER51 Tartera Roja 7
+Ger"	403261,83	4702485,345
+"bCER52 Tartera Roja 8
+Ger"	403283,303	4702536,749
+"bCER53 Tartera Roja 9
+Ger"	403301,988	4702607,061
+"bCER54 Tartera Roja 10
+Ger"	403436,25	4702620,384
+"bCER55 Tartera Roja 11
+Ger"	403452,73	4702584,228
+"bCER56 Coll de Mulleres 1
+Meranges"	398997,887	4702885,743
+"bCER57 Coll de Mulleres 2
+Meranges"	398926,591	4703044,04
+"bCER58 Coll de Mulleres 3
+Meranges"	399423,143	4702635,062
+"bCER59 Pla de la Vila 1
+Guils de Cerdanya"	399970,771	4704368,073
+"bCER60 Pla de la Vila 2
+Guils de Cerdanya"	400178,212	4704312,3
+"bCER61 Pla dels Empedrats 6
+Guils de Cerdanya"	401153,815	4704559,606
+"bCER63 Pla dels Empedrats 8
+Guils de Cerdanya"	401221,601	4704602,69
+"bCER64 Pla dels Empedrats 9
+Guils de Cerdanya"	401320,353	4704603,685
+"bCER65 Pla dels Empedrats 10
+Guils de Cerdanya"	401522,417	4704725,075
+"bCER66 Pla dels Empedrats 12
+Guils de Cerdanya"	402002,307	4704419,895
+"bCER67 Mulleres de Roca Colom 2
+Guils de Cerdanya"	402961,54	4704210,829
+"bCER68 Mulleres de Roca Colom 3
+Guils de Cerdanya"	402656,986	4704106,739
+"bCER69 Mulleres de Roca Colom 4
+Guils de Cerdanya"	403169,527	4704321,408
+"bCER70 Mulleres de Roca Colom 5
+Guils de Cerdanya"	402938,52	4704095,362
+"bCER71 Mulleres de Roca Colom 6
+Guils de Cerdanya"	402916,739	4704129,31
+"bCER72 Mulleres de Roca Colom 7
+Guils de Cerdanya"	402998,663	4704153,552
+"bCER73 Mulleres de Roca Colom 8
+Guils de Cerdanya"	403160,466	4704155,025
+"bCER74 Mulleres de Roca Colom 9
+Guils de Cerdanya"	403153,891	4704206,185
+"bCER75 Mulleres de Roca Colom 10
+Guils de Cerdanya"	403133,299	4704262,308
+"bCER76 Mulleres de Roca Colom 11
+Guils de Cerdanya"	403096,86	4704230,991
+"bCER77 La Creu de la Gavarrera 1
+Ger"	403587,174	4701091,534
+"bCER78 La Feixa 1
+Ger"	402386,031	4701410,936
+"bCER79 La Feixa 2
+Ger"	402184,65	4701404,561
+"bCER80 La Feixa 3
+Ger"	402245,615	4701287,459
+"bCER81 La Feixa 4
+Ger"	402280,625	4701229,517
+"bCER82 La Feixa 5
+Ger"	402073,963	4701099,577
+"bCER83 Els Rasets 1
+Ger"	402505,85	4701074,676
+"bCER84 Els Rasets 2
+Ger"	402427,731	4701080,657
+"bCER85 Els Rasets 3
+Ger"	402355,007	4701027,607
+"bCER86 Els Rasets 4
+Ger"	402351,124	4700724,058
+"bCER87 Moscador de Dalt 1
+Ger"	402021,347	4700394,972
+"bCER88 Moscador de Dalt 2
+Ger"	401950,332	4700429,652
+"bCER89 Moscador de Dalt 3
+Ger"	401904,808	4700440,91
+"bCER90 Moscador de Dalt 4
+Ger"	401883,425	4700427,435
+"bCER91 Moscador de Dalt 5
+Ger"	401954,046	4700357,824
+"bCER92 Clots de Guils 29
+Ger"	401218,816	4701936,682
+"bCER93 Clots de Guils 30
+Ger"	401116,55	4701957,96
