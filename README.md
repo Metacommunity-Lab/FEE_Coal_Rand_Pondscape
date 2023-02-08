@@ -1,9 +1,11 @@
-# Frontiers in Ecology and Evolution: Coalescent models for pondscapes and pondscapes randomization analysis (FEE_Coal_Rand_Pondscape)
+# Heterogeneity in the isolation of patches may be essential for the action of metacommunity mechanisms 
+## Frontiers in Ecology and Evolution: Coalescent models for pondscapes and pondscapes randomization analysis (FEE_Coal_Rand_Pondscape)
 
-Project and lines of analysis linked to the paper entitled Heterogeneity in the isolation of patches may be essential for the action of metacommunity mechanisms by Ana I. Borthagaray, David Cunillera-Montcusí, Jordi Bou, Irene Tornero, Dani Boix, Maria Anton, Esteban Ortiz, Thomas Mehner, Xavier D. Quintana, Stéphanie Gascón and Matías Arim (DOI: ). 
+Project and lines of analysis linked to the paper entitled Heterogeneity in the isolation of patches may be essential for the action of metacommunity mechanisms by Ana I. Borthagaray, David Cunillera-Montcusí, Jordi Bou, Irene Tornero, Dani Boix, Maria Anton, Esteban Ortiz, Thomas Mehner, Xavier D. Quintana, Stéphanie Gascón and Matías Arim.
 
 Contact authros at: matiasarim@gmail.com ; borthagaray@gmail.com ; david.cunillera@dcm.cat
 
+Paper DOI:
 A tutorial is available with all the corresponding code at: https://metacommunity-lab.github.io/FEE_Coal_Rand_Pondscape/
 
 Abstract:
