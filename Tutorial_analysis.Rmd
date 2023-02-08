@@ -24,13 +24,14 @@ All the suplementary material images, original scripts and used functions can be
 
 Article DOI: 
 
-Direct link: 
+Direct link to repositpory: https://github.com/Metacommunity-Lab/FEE_Coal_Rand_Pondscape
 
 To properly follow the following steps we recommend to read the entire work to better contextualise the use and limitations of the current codes and functions. 
 
 ## *The scripts can be found in the following repository*
 
-Link to the function: https://github.com/
+Link to the function: https://github.com/Metacommunity-Lab/FEE_Coal_Rand_Pondscape
+
 Link to supplementary material: 
 
 ```{r packages , eval=FALSE}
