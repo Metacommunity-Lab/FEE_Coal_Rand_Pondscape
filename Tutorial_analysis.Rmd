@@ -43,8 +43,9 @@ library(dplyr); library(tibble); library(ggplot2); library(gridExtra)
 
 To develpe and carry all the analysis that readers can found in the previously cited paper we developed two main functions that define our two main analysis: 
 
-## 1. Pondscape diversity along dispersal and centrality gradients (mainly providing Figure 3A and B columns).
-## 2. Pondscape randomization and diveristy comparisons (mainly providing Figure 3C and D colums)
+*1. Pondscape diversity along dispersal and centrality gradients (mainly providing Figure 3A and B columns)*
+
+*2. Pondscape randomization and diveristy comparisons (mainly providing Figure 3C and D colums)*
 
 For each one of these analysis we provide in the repository the scripts developing the corresponding functions: 1) FEE_IterationModel_Ponderful.R and 2) FEE_Random_landscape_Ponderful.R. 
 
@@ -64,9 +65,9 @@ Rocha <- cbind(Rocha,0,1,100)
 
 # **Lines of analysis for each Pondscape**
 
-For each podnscape we run the same set of code lines where we define the set of requirements fo the two main functions utilisation. The following lines can also be found in the script named Lines_Analysis.R contained in the main github repository of this project (see above). 
+For each pondscape we run the same set of code lines where we first define the set of requirements for the two functions that we use. Then, we run the two functions that can take several hours to finish as the coalescent process is based on several iterations were we fill the communities with individuals of species until all the community spaces are full (see methods section from the above manuscript for a detailed explanation). The following lines can also be found in the script named Lines_Analysis.R contained in the main github repository of this project (see above). 
 
-##*Albera*
+## *Albera*
 ```{r Albera, eval=FALSE}
 # Seting elements for each function 
 Albera<-cbind(ALBERA,100)
@@ -115,7 +116,7 @@ random_vs_real_D50.Albera_Febrero_2023<-H2020_Random_Landscape_local_ponds.D50(n
 
 ```
 
-##*Giara*
+## *Giara*
 
 ```{r Giara, eval=FALSE}
 # Seting elements for each function 
@@ -163,7 +164,7 @@ random_vs_real_D50.Giara_febrero_2023<-H2020_Random_Landscape_local_ponds.D50(n.
 
 ```
 
-##*Guils*
+## *Guils*
 
 ```{r Guils, eval=FALSE}
 # Seting elements for each function 
@@ -213,7 +214,7 @@ random_vs_real_D50.Guils_febrero_2023<-H2020_Random_Landscape_local_ponds.D50(n.
 
 ```
 
-##*PNAE*
+## *PNAE*
 
 ```{r PNAE, eval=FALSE}
 # Seting elements for each function 
@@ -260,7 +261,7 @@ random_vs_real_D50.Pnae_Febrero_2023<-H2020_Random_Landscape_local_ponds.D50(n.r
 
 ```
 
-##*Vila nova*
+## *Vila nova*
 
 ```{r Vilanova, eval=FALSE}
 # Seting elements for each function 
@@ -309,7 +310,7 @@ random_vs_real_D50.Vilavona_Febrero_2023<-H2020_Random_Landscape_local_ponds.D50
 
 ```
 
-##*Rocha*
+## *Rocha*
 
 ```{r Rocha, eval=FALSE}
 # Seting elements for each function 
@@ -351,9 +352,6 @@ random_vs_real_D50.Rocha_febrero2023<-H2020_Random_Landscape_local_ponds.D50(n.r
                                                                  D50.min=1, D50.max=2000, m.max=1,M.X.Y=Rocha[,2:3],
                                                                  id.fixed=0, D50.fixed=100, m.max.fixed=1, comm.fixed=Meta.comm.Rocha,
                                                                  Lottery=F, it=0, prop.dead.by.it=0, id.obs=1:nrow(Rocha))
-
-
-
 ```
 
 # **Lines of ploting and results representation for each Pondscape**
@@ -361,6 +359,8 @@ random_vs_real_D50.Rocha_febrero2023<-H2020_Random_Landscape_local_ponds.D50(n.r
 Once all the results have been produced and all the simulations carried we extract the specific outputs of alpha diversity and betadiversity in order to plot them accrodingly and to represent the article figures. The following lines can also be found in the script named Lines_PLots.R contained in the main github repository of this project (see above). 
 
 ## *Figure 1*
+
+Here we represent the pondscapes analysed in this study. Five European pondscapes (Albera, Clots de Guils, Empordà Wetlands (PNAE) and Vila Nova de Milfontes) and one Uruguayan (Rocha). 
 
 ```{r Figure 1, eval=FALSE}
 xy.ALB <- read.table(file = "Pondscapes_loc/CHARCOS_ALBERA.txt",sep = "\t", dec =",",header = T)
@@ -450,7 +450,9 @@ for (u in 1:length(xy.values)) {
 knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/Figures_Frontiers/Figure_1.jpg")
 ```
 
-## *Figure 3 settings*
+## *Figure 3*
+
+This is figure representing the main results obtained in the presented work were the interplay between landscape configuration and species dispersal ability as determinants of metacommunity biodiversity is plotted. Rows correspond to metacommunities of water bodies. A, B: Alpha and beta diversities along a dispersal ability gradient. Dispersal ability in x-axes is the distance at which dispersal falls to half its maximum rate (d_50). The colours of points represent the isolation-centrality gradient (weighted degree centrality) of communities. The black curves represent the set of more isolated (dashed) and central (continuous) communities in the pondscape. Inset figure is the ratio for alpha or beta diversity in the most peripheral vs. the most central community in the gradient of dispersal ability—i.e., 〖Ratio〗_alpha  and 〖Ratio〗_beta. C, D: Importance of pondscape configuration for alpha and beta diversity along the gradient of dispersal abilities. Z-values correspond to standardised deviations of diversity predicted for the real pondscape structure (S ̅_obs) and the average diversity expected by the null model prediction when the location of communities was randomised (S ̅_null): Z-value=((S ̅_obs-S ̅_null))⁄(SD(S ̅_null)), for each dispersal ability (d_50). 
 
 ```{r Figure 3 setttings, eval=FALSE}
 # Nice colours? CUNILLERA_palette is what you need
@@ -669,6 +671,10 @@ final_plot_v2[[p]] <- ggdraw() +
               draw_plot(B.cv.oe,   x = 0.85,y = 0,   width = 0.15, height = 1)
 ```
 
+```{r Figure 3_Albera, echo=FALSE, out.width='100%',  results = 'markup'}
+knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/GutHub repository/Figures to GitHub/Figure_3_Albera.png")
+```
+
 ## *Figure 3 PNAE (second row)*
 
 ```{r Figure 3 PNAE, eval=FALSE}
@@ -860,6 +866,10 @@ final_plot_v2[[p]] <- ggdraw() +
   draw_plot(B.cv.oe,   x = 0.85,y = 0,   width = 0.15, height = 1)
 ```
 
+```{r Figure 3_PNAE, echo=FALSE, out.width='100%',  results = 'markup'}
+knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/GutHub repository/Figures to GitHub/Figure_3_PNAE.png")
+```
+
 ## *Figure 3 Giara (third row)*
 
 ```{r Figure 3 Giara, eval=FALSE}
@@ -1049,6 +1059,10 @@ final_plot_v2[[p]] <- ggdraw() +
   draw_plot(legend,    x = 0.6, y = 0.3, width = 0.1,  height = 0.5)+
   draw_plot(S.cv.oe,   x = 0.7, y = 0,   width = 0.15, height = 1)+
   draw_plot(B.cv.oe,   x = 0.85,y = 0,   width = 0.15, height = 1)
+```
+
+```{r Figure 3_Giara, echo=FALSE, out.width='100%',  results = 'markup'}
+knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/GutHub repository/Figures to GitHub/Figure_3_Giara.png")
 ```
 
 ## *Figure 3 Vila nova (foruth row)*
@@ -1243,6 +1257,10 @@ final_plot_v2[[p]] <- ggdraw() +
   draw_plot(B.cv.oe,   x = 0.85,y = 0,   width = 0.15, height = 1)
 ```
 
+```{r Figure 3_Vilanova, echo=FALSE, out.width='100%',  results = 'markup'}
+knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/GutHub repository/Figures to GitHub/Figure_3_Vilanova.png")
+```
+
 ## *Figure 3 Guils (fifth row)*
 
 ```{r Figure 3 Guils, eval=FALSE}
@@ -1433,6 +1451,10 @@ final_plot_v2[[p]] <- ggdraw() +
   draw_plot(legend,    x = 0.6, y = 0.3, width = 0.1,  height = 0.5)+
   draw_plot(S.cv.oe,   x = 0.7, y = 0,   width = 0.15, height = 1)+
   draw_plot(B.cv.oe,   x = 0.85,y = 0,   width = 0.15, height = 1)
+```
+
+```{r Figure 3_Guils, echo=FALSE, out.width='100%',  results = 'markup'}
+knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/GutHub repository/Figures to GitHub/Figure_3_Guils.png")
 ```
 
 ## *Figure 3 Rocha (sixth row)*
@@ -1628,7 +1650,11 @@ final_plot_v2[[p]] <- ggdraw() +
   draw_plot(B.cv.oe,   x = 0.85,y = 0,   width = 0.15, height = 1)
 ```
 
-## *Figure 3 and Supplementary figures C and D printing*
+```{r Figure 3_Rocha, echo=FALSE, out.width='100%',  results = 'markup'}
+knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/GutHub repository/Figures to GitHub/Figure_3_Rocha.png")
+```
+
+## *Figure 3 printing*
 
 ```{r Figure 3 assembly, eval=FALSE}
 # Image printing
@@ -1642,7 +1668,13 @@ grid.arrange(final_plot_v1[[1]],
              final_plot_v1[[6]],
              nrow=6,ncol=1)
 dev.off()
+```
 
+## *Supplementary S3 printing*
+
+In Figure S3 we represent the difference between the coefficient of variation of the diversity predicted for the real pondscape structure and the coefficient of variation of the diversity expected by the null model prediction when the pondscape configuration was randomised. Dispersal ability in x-axes is the distance at which dispersal falls to half its maximum rate (d_50).
+
+```{r Supplementary S3, eval=FALSE}
 png(filename = "C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/Figures_Frontiers/Supplementary_Fig3_CV.png",
     width =937*2, height =(length(Pondscapes_outputs)*(398*2)), units = "px",res = 300)
 grid.arrange(supp_CV_plot[[1]],
@@ -1653,11 +1685,6 @@ grid.arrange(supp_CV_plot[[1]],
              supp_CV_plot[[6]],
              nrow=6,ncol=1)
 dev.off()
-
-```
-
-```{r Figure 3, echo=FALSE, out.width='100%',  results = 'markup'}
-knitr::include_graphics("C:/Users/David CM/Dropbox/H2020/RETROMED/Frontiers_Diciembre_2022/Frontiers_Respuestas/Figures_Frontiers/Figure_3.png")
 ```
 
 ```{r Figure S3, echo=FALSE, out.width='100%',  results = 'markup'}
