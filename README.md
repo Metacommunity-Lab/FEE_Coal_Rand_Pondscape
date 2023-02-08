@@ -3,13 +3,19 @@
 
 Project and lines of analysis linked to the paper entitled Heterogeneity in the isolation of patches may be essential for the action of metacommunity mechanisms by Ana I. Borthagaray*1*, David Cunillera-Montcusí*1,2,3*, Jordi Bou*4*, Irene Tornero*3,5*, Dani Boix*3*, Maria Anton*3,6*, Esteban Ortiz*1*, Thomas Mehner*7*, Xavier D. Quintana*3*, Stéphanie Gascón*3* and Matías Arim*1*
 
-*1. Departamento de Ecología y Gestión Ambiental, Centro Universitario Regional del Este (CURE), Universidad de la República, Tacuarembó s/n, Maldonado, Uruguay.
-*2. FEHM-Lab. Section of Ecology, Department of Evolutionary Biology, Ecology and Environmental Sciences. University of Barcelona, Diagonal, 643 (08028 Barcelona, Catalonia/Spain)
-*3. GRECO, Institute of Aquatic Ecology, University of Girona, Girona, Spain. 
-*4. LAGP-Flora and Vegetation, Institut of the Environment, University of Girona, Girona, Catalonia, Spain 
-*5. Institute of Aquatic Ecology, Centre for Ecological Research, Budapest, Hungary 
-*6. Biodiversity and Conservation Area, Department of Biology and Geology, Physics and Inorganic Chemistry, Rey Juan Carlos University, Spain
-*7. Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Müggelseedamm 310, 12587 Berlin, Germany
+*1. Departamento de Ecología y Gestión Ambiental, Centro Universitario Regional del Este (CURE), Universidad de la República, Tacuarembó s/n, Maldonado, Uruguay*
+
+*2. FEHM-Lab. Section of Ecology, Department of Evolutionary Biology, Ecology and Environmental Sciences. University of Barcelona, Diagonal, 643 (08028 Barcelona, Catalonia/Spain)*
+
+*3. GRECO, Institute of Aquatic Ecology, University of Girona, Girona, Spain* 
+
+*4. LAGP-Flora and Vegetation, Institut of the Environment, University of Girona, Girona, Catalonia, Spain*
+
+*5. Institute of Aquatic Ecology, Centre for Ecological Research, Budapest, Hungary*
+
+*6. Biodiversity and Conservation Area, Department of Biology and Geology, Physics and Inorganic Chemistry, Rey Juan Carlos University, Spain*
+
+*7. Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Müggelseedamm 310, 12587 Berlin, Germany*
 
 Contact authros at: matiasarim@gmail.com ; borthagaray@gmail.com ; david.cunillera@dcm.cat
 
