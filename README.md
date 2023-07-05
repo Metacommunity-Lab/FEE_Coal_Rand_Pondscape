@@ -19,7 +19,7 @@ Project and lines of analysis linked to the paper entitled Heterogeneity in the 
 
 Contact authros at: matiasarim@gmail.com ; borthagaray@gmail.com ; david.cunillera@dcm.cat
 
-Paper DOI:
+Paper DOI: https://doi.org/10.3389/fevo.2023.1125607
 
 A tutorial is available with all the corresponding code at: https://metacommunity-lab.github.io/FEE_Coal_Rand_Pondscape/
 
