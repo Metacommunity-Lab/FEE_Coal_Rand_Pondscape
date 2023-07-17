@@ -17,7 +17,7 @@ Project and lines of analysis linked to the paper entitled Heterogeneity in the 
 
 *7. Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Müggelseedamm 310, 12587 Berlin, Germany*
 
-Contact authros at: matiasarim@gmail.com ; borthagaray@gmail.com ; david.cunillera@dcm.cat
+Contact authors at: matiasarim@gmail.com ; borthagaray@gmail.com ; david.cunillera@dcm.cat
 
 Paper DOI: https://doi.org/10.3389/fevo.2023.1125607
 
